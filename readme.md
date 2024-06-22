@@ -128,3 +128,7 @@ WD-ProjectName
 | Cat GIF  | For the sleeping cat  | https://www.google.com/url?sa=i&url=https%3A%2F%2Fwifflegif.com%2Fgifs%2F317789-transparent-sleeping-gif&psig=AOvVaw3uU-nroU1AoS88xwu7u_sk&ust=1719124505413000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLj05__L7oYDFQAAAAAdAAAAABAJ |
 | PixelatedGIF  | To makes GIF pixelated | https://onlinegiftools.com/pixelate-gif |
 
+##Deployment Link
+
+https://johnarvintum.github.io/WD-Hands-on-2-main/
+
