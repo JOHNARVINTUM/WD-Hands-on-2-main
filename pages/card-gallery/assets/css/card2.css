@@ -1,0 +1,109 @@
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+
+  .p2content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    gap: 2%;
+  }
+  
+  .p2left {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(54, 15, 15, 0.897);
+    padding: 2rem;
+    flex: 1;
+    max-width: 45%;
+  }
+  
+  .p2left h1 {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .p2left p {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .p2left button {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    border-radius: 5%;
+    font-size: 25px;
+    color: rgb(219, 75, 75);
+    background-color: rgba(58, 10, 13, 0.979);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    align-self: flex-start;
+  }
+  
+  .p2left button:hover {
+    background-color: #e42f2f;
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+  }
+  
+  .s2content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    gap: 2%;
+  }
+  
+  .s2left {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(54, 15, 15, 0.897);
+    padding: 2rem;
+    flex: 1;
+    max-width: 45%;
+  }
+  
+  .s2left h1 {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .s2left p {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .s2left button {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    border-radius: 5%;
+    font-size: 25px;
+    color: rgb(219, 75, 75);
+    background-color: rgba(58, 10, 13, 0.979);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    align-self: flex-start;
+  }
+  
+  

@@ -1,0 +1,166 @@
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.p4content{
+    margin: 5%;
+    background-color: rgba(24, 7, 102, 0.61);
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.p4content h1{
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+font-family: "Urbanist", sans-serif;
+font-optical-sizing: auto;
+font-weight:100;
+font-style:normal;
+color: white;
+font-size: 4rem;
+}
+
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #060496, 0 0 40px #060496, 0 0 50px #060496, 0 0 60px #060496, 0 0 70px #060496;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #435cec, 0 0 40px #435cec, 0 0 50px #435cec, 0 0 60px #435cec, 0 0 70px #435cec, 0 0 80px #435cec;
+    }
+}
+
+
+.p4content p{
+font-family: "Urbanist", sans-serif;
+font-optical-sizing: auto;
+font-weight:100px;
+font-style:normal;
+color:white;
+font-size: 1rem;
+}
+
+
+.p4CC{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 2%;
+}
+
+.p4choices{
+display: flex;
+justify-content: center;
+align-items: end;
+gap: 3rem;
+
+}
+
+
+.p4choices button {
+     
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:100px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffffd0;
+    text-shadow: none;
+    background:  rgba(3, 37, 82, 0.612);
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #f0e7e7da;
+    transition: 0.5s ease;
+    user-select: none;
+  }
+  
+  #p4fb:hover,
+  :focus {
+    color: #ffffff;
+    background: #008cff;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+      0 0 100px #008cff;
+  }
+
+  #p4sb:hover,
+  :focus {
+    color: #ffffff;
+    background: #008cff;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+      0 0 100px #008cff;
+  }
+
+  .s4content{
+    margin: 5%;
+    background-color: rgba(24, 7, 102, 0.61);
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.s4content h1{
+font-family: "Urbanist", sans-serif;
+font-optical-sizing: auto;
+font-weight:100;
+font-style:normal;
+color: white;
+font-size: 4rem;
+}
+
+.s4content p{
+font-family: "Urbanist", sans-serif;
+font-optical-sizing: auto;
+font-weight:100px;
+font-style:normal;
+color:white;
+font-size: 1rem;
+}
+
+.s4CC{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 2%;
+}
+
+.s4choices{
+display: flex;
+justify-content: center;
+align-items: end;
+gap: 3rem;
+
+}
+
+
+.s4choices button {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:100px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffffd0;
+    text-shadow: none;
+    background:  rgba(3, 37, 82, 0.612);
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #f0e7e7da;
+    transition: 0.5s ease;
+    user-select: none;
+  }
+
