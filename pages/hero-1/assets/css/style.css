@@ -1,0 +1,124 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .background {
+    background-image: url(../img/writing.gif);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .Menu {
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    color: white;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  .Menu a {
+    font-family: "Playwrite AU VIC", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px; 
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .Menu a:hover {
+    color: #FFD700; 
+    transform: scale(1.1); 
+  }
+  
+  .Menu button {
+    border-radius: 5%;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(24, 23, 27, 0.644);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .Menu button:hover {
+    background-color: #FFD700; 
+    transform: scale(1.1); 
+  }
+  
+  .Body {
+    background-color: antiquewhite;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Body h1 {
+    font-family: "Playwrite AU VIC", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal; 
+    font-style: normal;
+    margin-left: 2rem;
+    font-size: 3rem;
+    text-align: left;
+  }
+
+  .Body h1 img{
+    height: 5rem;
+    width: 5rem;
+  }
+  
+  .Body p {
+    font-family: "Playwrite AU VIC", cursive;
+    font-weight: normal; 
+    font-style: normal;
+    margin-left: 2rem;
+    font-size: 2rem;
+  }
+  
+  .Body hr {
+    display: flex;
+    background-color: black;
+    color: black;
+    width: 100%;
+    height: 5px;
+  }
+  
+  .content {
+    padding-right: 10rem;
+    padding-left: 10rem;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .Picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 3rem;
+  }
+  
+  .Footer p {
+    font-family: "Playwrite AU VIC", cursive;
+    font-weight: normal;
+    font-style: normal;
+  }
+  
