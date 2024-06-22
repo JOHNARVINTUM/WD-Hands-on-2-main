@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-image: url(../img/hotel.gif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-color: rgb(48, 25, 52); 
+}
+
+.Menu {
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    color: white;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+
+.Menu a:hover {
+    color: #e42f2f;
+    transform: scale(1.1);
+}
+
+.Menu button {
+    font-family: "Roboto Slab", serif;
+    font-weight: normal;
+    border-radius: 5%;
+    font-size: 25px;
+    color: rgb(212, 147, 238);
+    background-color: rgba(48, 25, 52, 0.85);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.Menu button:hover {
+    background-color: rgb(212, 147, 238);
+    color: rgb(177, 10, 177);
+    transform: scale(1.1);
+}
+
+.left {
+    box-shadow: 10px 10px 5px 12px rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    margin: auto 20%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(48, 25, 52, 0.85);
+    gap: 2rem;
+    border-radius: 10%;
+    text-align: center;
+}
+
+
+.left h1 {
+    font-size: 4rem;
+    color: #fff;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    font-family: "Roboto Slab", serif;
+    font-weight: normal;
+    margin: 0;
+}
+
+.left img{
+    height: 40%;
+    width: 40%;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #670496, 0 0 40px #670496, 0 0 50px #670496, 0 0 60px #670496, 0 0 70px #670496;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #8c07ca, 0 0 40px #8c07ca, 0 0 50px #8c07ca, 0 0 60px #8c07ca, 0 0 70px #8c07ca, 0 0 80px #8c07ca;
+    }
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #670496, 0 0 40px #670496, 0 0 50px #670496, 0 0 60px #670496, 0 0 70px #670496;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #8c07ca, 0 0 40px #8c07ca, 0 0 50px #8c07ca, 0 0 60px #8c07ca, 0 0 70px #8c07ca, 0 0 80px #8c07ca;
+    }
+}
+
+.left button {
+    --clr-font-main: hsla(0 0% 20% / 100);
+    --btn-bg-1: rgb(89, 3, 139);
+    --btn-bg-2: rgb(30, 2, 43);
+    --btn-bg-color: hsla(360 100% 100% / 1);
+    --radii: 0.5em;
+    cursor: pointer;
+    padding: 2rem;
+    min-width: 120px;
+    min-height: 44px;
+    font-size: 2rem;
+    font-family: "Segoe UI", system-ui, sans-serif;
+    font-weight: 500;
+    transition: 0.8s;
+    background-size: 200% auto;
+    background-image: linear-gradient(325deg, var(--btn-bg-2) 0%, var(--btn-bg-1) 55%, var(--btn-bg-2) 90%);
+    border: none;
+    border-radius: var(--radii);
+    color: var(--btn-bg-color);
+    box-shadow: 0px 0px 20px rgba(102, 1, 128, 0.5), 0px 5px 5px -1px rgba(95, 1, 158, 0.25), inset 4px 4px 8px rgba(112, 2, 202, 0.5), inset -4px -4px 8px rgba(104, 19, 216, 0.35);
+}
+
+.left button:hover {
+    background-position: right top;
+}
+
+.left button:is(:focus, :focus-visible, :active) {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .left button {
+        transition: linear;
+    }
+}
+
+.picture{
+    align-items: end;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.Footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
