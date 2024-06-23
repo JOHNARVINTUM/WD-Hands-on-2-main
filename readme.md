@@ -71,7 +71,6 @@ Guiding Question:
 - MultiPage Website
 - Multiple CSS
 - Hover
-- Active
 - Focus
 
 ### Technology
