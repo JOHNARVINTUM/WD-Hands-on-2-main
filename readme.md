@@ -132,3 +132,9 @@ WD-ProjectName
 
 https://johnarvintum.github.io/WD-Hands-on-2-main/
 
+## Website
+
+- Small information
+On the first page which is the home it provides the title, description, and even buttons.
+On pages all of the button is dynamic(hover,focus) try to hover on the buttons.
+
