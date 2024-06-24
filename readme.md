@@ -59,12 +59,6 @@
 <!-- The following are just sample -->
 The project demosntrates how to code several Hero and Card types, Including Dynamic/Static desings on Hero and Card, using HTML and CSS. The purpose of the project is to learn HTML and CSS code.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
-
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
